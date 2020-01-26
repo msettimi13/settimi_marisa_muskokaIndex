@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+
+div,p,body,header,footer,article { 
+	margin: 10px; 
+	padding: 0; 
+}	
+
+html,body {padding:0; margin:0;}
+
+img { 
+	border: none;
+	margin: 0; 
+	padding: 15px; 
+	padding-left: 20px;
+}
+
+h2 {
+	font-family: 'Oswald', helvetica, sans-serif;
+	font-size: 30px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+h3 {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+h5 {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 3px;
+}
+
+body {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 22px;
+}
+
+p::first-letter {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 200%;
+	color: black;
+}
+
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+#topBar {
+	background-color: black;
+	height: 250px;
+	margin-bottom: 5px;
+}
+
+#aboutBox {
+	background-color: #F3F1F0;
+	padding-top: 5px;
+	width: 350px;
+	padding-left: 10px;
+	margin-right: auto;
+	float: left;
+}
+
+#whyBox {
+	background-color: #F3F1F0;
+	width: 555px;
+	height: 205px;
+	float: right;
+}
+
+#beerPhotos {
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+#beerPhotos img { 
+	margin-top: 207px;
+}
+
+#beerList {
+	background-color: #F3F1F0;
+	width: 555px;
+	height: 415px;
+	float: right;
+}
+
+#beerList h1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#beerList ul li {
+	padding-top: 2px;
+	text-align: center;
+	font-family: 'Oswald', Arial, helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+#valuesBox {
+	background-color: #F3F1F0;
+	width: 355px;
+	height: 80px;
+	float: left;
+	margin-top: 7px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+#weAreBox {
+	background-color: #F3F1F0;
+	width: 345px;
+	height: 770px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 5px;
+}
+
+mark.we {
+    color:#F3F1F0;
+    font-size: 40px;
+    background-color: black;
+    margin-right: 5px;
+    float: left;
+    padding: 10px;
+   	
+}
+
+#weAreBox h3 {
+	padding: 20px;
+}
+
+#contactBox {
+	background-color: #F3F1F0;
+	width: 555px;
+	height: 340px;
+	float: right;
+	margin-top: 8px;
+}
+
+mark.address {
+	font-size: 20px;
+	font-family: 'Oswald', Arial, helvetica, sans-serif;
+	background-color: white;
+}
+
+mark.free {
+	font-style: bold;
+	background-color: white;
+}
+
+#contactBox img {
+	margin: 10px;
+	float: right;
+}
+
